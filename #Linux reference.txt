@@ -1,0 +1,65 @@
+Black screen at boot after Nvidia driver installation on Ubuntu 18.04.2 LTS
+https://askubuntu.com/questions/1129516/black-screen-at-boot-after-nvidia-driver-installation-on-ubuntu-18-04-2-lts
+
+How to Encrypt a Drive on Ubuntu 18.04
+https://linuxhint.com/encrypt_drive_ubuntu/
+
+Combine Terminal Commands
+https://www.howtogeek.com/269509/how-to-run-two-or-more-terminal-commands-at-once-in-linux/
+
+Poweroff
+https://www.tecmint.com/shutdown-poweroff-halt-and-reboot-commands-in-linux/
+SHUTDOWN schedules a time for the system to be powered down. It may be used to halt, power-off or reboot the machine.
+# shutdown
+# shutdown now
+# shutdown 13:20  
+# shutdown -p now	#poweroff the machine
+# shutdown -H now	#halt the machine		
+# shutdown -r09:35	#reboot the machine at 09:35am
+# shutdown -c		#cancel a pending shutdown
+
+HALT instructs the hardware to stop all CPU functions, but leaves it powered on. You can use it to get the system to a state where you can perform low level maintenance.
+# halt		   #halt the machine
+# halt -p	   #poweroff the machine
+# halt --reboot    #reboot the machine
+
+POWEROFF sends an ACPI signal which instructs the system to power down.
+# poweroff   	       #poweroff the machine
+# poweroff --halt      #halt the machine
+# poweroff --reboot    #reboot the machine
+
+REBOOT instructs the system to restart.
+# reboot            #reboot the machine
+# reboot --halt     #halt the machine
+# reboot -p   	    #poweroff the machine
+
+How to keep script running after clossing SSH
+notsosolidsnakeToday at 10:06 AM - i just read that said some people had to reboot, and re-install it to their pi then it started working
+https://raspi.tv/2012/using-screen-with-raspberry-pi-to-avoid-leaving-ssh-sessions-open
+http://www.gnu.org/software/screen/manual/screen.html#Getting-Started
+https://linuxize.com/post/how-to-use-linux-screen/
+
+How to terminate a background process?
+https://unix.stackexchange.com/questions/104821/how-to-terminate-a-background-process
+
+Start a Linux process in background directly
+https://linuxhandbook.com/run-process-background/
+
+How to keep processes running after ending ssh session?
+https://askubuntu.com/questions/8653/how-to-keep-processes-running-after-ending-ssh-session
+nohup long-running-command &
+OR
+ctrl+z
+bg
+disown -h
+OR
+You could do that by using screen.
+Type man screen to find out more or read this screen man page.
+
+Simple scenario:
+ssh into your remote box. Type screen Then start the process you want.
+
+Press Ctrl-A then Ctrl-D. This will "detach" your screen session but leave your processes running. You can now log out of the remote box.
+
+If you want to come back later, log on again and type screen -r This will "resume" your screen session, and you can see the output of your process.
+

@@ -1,0 +1,7 @@
+C:\Users\hsrt1\source\repos\DesignPattern_Memento\bin\Debug\DesignPattern_Memento.exe.config
+C:\Users\hsrt1\source\repos\DesignPattern_Memento\bin\Debug\DesignPattern_Memento.exe
+C:\Users\hsrt1\source\repos\DesignPattern_Memento\bin\Debug\DesignPattern_Memento.pdb
+C:\Users\hsrt1\source\repos\DesignPattern_Memento\obj\Debug\DesignPattern_Memento.csprojAssemblyReference.cache
+C:\Users\hsrt1\source\repos\DesignPattern_Memento\obj\Debug\DesignPattern_Memento.csproj.CoreCompileInputs.cache
+C:\Users\hsrt1\source\repos\DesignPattern_Memento\obj\Debug\DesignPattern_Memento.exe
+C:\Users\hsrt1\source\repos\DesignPattern_Memento\obj\Debug\DesignPattern_Memento.pdb

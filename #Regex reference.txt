@@ -1,0 +1,11 @@
+Line Doesn't start with (")
+^(?!")
+
+Line Doesn't end with (")
+(?!")$
+
+Anything, but (")
+(?!")
+
+Select line containing (CONTENT)
+^.*CONTENT.*$\n
